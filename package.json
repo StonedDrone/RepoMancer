@@ -1,0 +1,39 @@
+{
+  "name": "repomancer",
+  "version": "1.0.0",
+  "description": "Omega-Level Repository Analysis & Integration Engine - Giving AI agents superpowers to understand and use any codebase",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "analyze": "node dist/cli.js"
+  },
+  "keywords": [
+    "repository",
+    "analysis",
+    "code",
+    "ai",
+    "agent",
+    "github",
+    "documentation",
+    "tools",
+    "integration"
+  ],
+  "author": "Stoned Drone",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.0",
+    "simple-git": "^3.26.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "markdown-it": "^14.1.0",
+    "gymast": "^0.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.7",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  }
+}
